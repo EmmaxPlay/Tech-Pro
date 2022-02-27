@@ -127,23 +127,57 @@
       <div class="listado-modelos">
         <div class="modelo modelo-x">
           <h3>TechPRO X</h3>
-          <p class="precio">
-            $299
-          </p>
+          <p class="precio">$299</p>
         </div>
         <div class="modelo modelo-y">
           <h3>TechPRO X</h3>
-          <p class="precio">
-            $399
-          </p>
+          <p class="precio">$399</p>
         </div>
         <div class="modelo modelo-z">
           <h3>TechPRO Z</h3>
-          <p class="precio">
-            $499
-          </p>
+          <p class="precio">$499</p>
         </div>
       </div>
     </main>
+    <section class="newsletter container">
+      <picture class="image">
+        <source
+          sizes="1920w"
+          srcset="img/newsletter.avif 1920w"
+          type="image/avif"
+        />
+        <source
+          sizes="1920w"
+          srcset="img/newsletter.webp 1920w"
+          type="image/webp"
+        />
+        <source
+          sizes="1920w"
+          srcset="img/newsletter.png 1920w"
+          type="image/jpeg"
+        />
+        <img
+          loading="lazy"
+          decoding="async"
+          src="img/newsletter.png"
+          lazyalt="imagen"
+          width="1000"
+          height="600"
+        />
+      </picture>
+      <div >
+        <h3>Recibe actualizaciones</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque impedit ipsa tenetur aliquid ut quisquam aperiam consectetur numquam, fugiat id rerum facere, ex explicabo sit! Suscipit rem quae enim quam.</p>
+        <form action="">
+          <input type="email" id="email"
+          size="30" required placeholder="Tu email">
+          <input type="submit" >
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Todos los derechos reservados</p>
+    </footer>
   </body>
 </html>
