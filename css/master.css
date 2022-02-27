@@ -43,7 +43,7 @@ h2{
     font-size: 3.6rem;
 }
 h3{
-    font-size: 2.8rem;
+    font-size: 2.6rem;
 }
 img{
     max-width: 100%;
@@ -65,8 +65,8 @@ img{
     padding: calc( var(--separacion)*3) 0;
     color: var(--blanco);
 }
-.nombre-producto{
-font-family: var(--fuentePrincipal);
+.nombre-producto {
+    font-family: var(--fuentePrincipal);
 }
 .header img{
     width: 100%;
@@ -83,4 +83,27 @@ font-family: var(--fuentePrincipal);
         justify-content: space-between;
         padding: 0;
     }
+
+}
+/**Iconos**/
+.iconos {
+    padding: var(--separacion);
+}
+@media (min-width: 768px) {
+    .iconos{
+        display: flex;
+        gap: 2rem;
+    }
+}
+.icono p, h3{
+    text-align: center;
+}
+.icono img{
+    width: 5rem;
+    margin: 0 auto;
+}
+.icono h3{
+    color: var(--primario);
+    text-transform: uppercase;
+    margin-top: calc(var(--separacion)/2);
 }
